@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/img_view_welcome3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/welcompage3" />
+
+    <Button
+        android:id="@+id/img_btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="开始奇妙之旅"
+        android:textColor="#FBFCFE"
+        android:background="#4D8AF0" />
+    
+
+</RelativeLayout>
